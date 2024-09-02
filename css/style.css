@@ -1,0 +1,223 @@
+@font-face {
+    font-family: 'vazir';
+    src: url('../font/Vazir-Regular.eot') format('eot'),
+         url('../font/Vazir-Regular.woff') format('woff'),
+         url('../font/Vazir-Regular.woff2') format('woff2'),
+}
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'vazir';
+    direction: rtl;
+    background-image: url(../images/backgroundtwo.jpg);
+}
+header#header{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+header nav{
+    position: absolute;
+    top: 2%;
+    z-index: 1;
+    width: 100%;
+}
+header nav ul{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    list-style: none;
+}
+header nav ul li {
+    margin: 0 18px;
+}
+header nav ul li a{
+    color: aliceblue;
+    font-size: 20px;
+    text-decoration: none;
+}
+header nav ul li a:hover{
+    color: chartreuse;
+    transition:all .3s ease-in-out ;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+}
+.for{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+.sky{
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.moon{
+    position: absolute;
+    top: 80%;
+    left: 47%;
+    width: 150px;
+}
+/* wolf */
+.wolf{
+    height: 900px;
+    width: 100%;
+    background-image: url(../images/wolfbackground.svg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+
+.wolf .wolf-title{
+    width: 100%;
+    text-align: center;
+
+}
+.wolf .wolf-title h1{
+    font-size: 30px;
+    color: aliceblue;
+}
+.wolf .wolf-title p{
+    color: aliceblue;
+    margin-top: 10px;
+    line-height: 60px;
+    font-size: 17px;
+}
+.wolf .wolf-countent p{
+    margin: 0 50px;
+    width: 800px;
+    color: #000;
+    font-size: larger;
+    line-height: 40px;
+    text-align: right;
+    text-shadow: 1px 1px 10px violet;
+}
+/* mokey */
+
+.monkey{
+    background-image: url('../images/mokeyBrid.svg');
+    background-size: cover;
+    height: 900px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.monkey .monkey-titel{
+    width: 100%;
+    text-align: center;
+}
+.monkey .monkey-titel h1{
+font-size: 30px;
+}
+.monkey .monkey-titel p{
+    font-size: 20px;
+}
+.monkey .monkey-countent p{
+    float: left;
+    margin: 0 50px;
+    width: 800px;
+    color:aliceblue;
+    font-size: larger;
+    line-height: 40px;
+    text-align: right;
+    text-shadow: 1px 1px 10px violet;
+}
+/* footer */
+footer{
+    background-image: url('../images/lionbg.svg');
+    background-size: cover;
+    height:1000px;
+    
+}
+footer .overlay{
+    background-color: rgba(29, 3, 34, 0.918);
+    height: 100%;
+    width: 100%;
+    padding: 100px 0 40px 0;;
+}
+
+footer .overlay .footer-titel{
+    text-align: center;
+    color: aliceblue;
+}
+footer .overlay .footer-titel h1{
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+footer .overlay .footer-titel p{
+    font-size: 20px;
+}
+footer .overlay form{
+    width: 400px;
+    margin: 60px auto;
+    text-align: center;
+
+}
+footer .overlay form input{
+    width: 100%;
+    margin: 7px 0;
+    padding: 7px;
+    font-family: vazir;
+}
+footer .overlay form button{
+    padding: 10px;
+    width: 180px;
+    background-color:alieblue;
+    border: 2px solid rgba(6, 6, 73, 0.562);
+    transition: all .3s ease-in;
+    -webkit-transition: all .3s ease-in;
+    -moz-transition: all .3s ease-in;
+    -ms-transition: all .3s ease-in;
+    -o-transition: all .3s ease-in;
+}
+footer .overlay form button:hover{
+    background-color: transparent;
+    cursor: pointer;
+    border: 2px solid floralwhite;
+}
+footer .overlay .description{
+    text-align: center;
+    color: aliceblue;
+    width: 400px;
+    margin: auto;
+    line-height: 30px;
+}
+footer .overlay .social{
+    width: 300px;
+    height: 50px;
+    margin: 50px auto;
+    height: auto;
+    color: aliceblue;
+}
+footer .overlay .social ul{
+    width: 100%;
+    height: 50px;
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+footer .overlay .social ul li{
+    width: 100%;
+    height: 50px;
+    color: aliceblue;
+}
+footer .overlay .social ul li a{
+    color: aliceblue;
+}
+footer .overlay .social ul li i{
+    font-size: 25px;
+}
+#NAme{
+    margin-top: 10px;
+    font-size: 40px;
+}
